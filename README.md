@@ -1,5 +1,8 @@
-Sigrok protocol decoder for the SDQ protocol. This is used in, for example,
-Apple devices with Lightning connectors.
+Sigrok protocol decoder for the SDQ protocol. The SDQ protocol was developed by
+Texas Instruments, and is used in devices like the
+[bq26100](https://www.ti.com/lit/ds/symlink/bq26100.pdf) battery pack
+authentication IC. Apple uses SDQ in devices with MagSafe or Lightning
+connectors, as well as in some batteries.
 
 Screenshot from PulseView:
 ![PulseView screenshot](screenshot.png)
