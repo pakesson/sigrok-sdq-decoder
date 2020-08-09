@@ -18,6 +18,10 @@ cd ~/.local/share/libsigrokdecode/decoders
 git clone https://github.com/pakesson/sigrok-sdq-decoder.git sdq
 ```
 
+# Example data
+
+An example dump of an iPhone SE being plugged into an untrusted computer can be found under `examples/`.
+
 # Alternatives
 
 If you use Saleae Logic, check out [SDQAnalyzer](https://github.com/nezza/SDQAnalyzer) by Thomas Roth.
