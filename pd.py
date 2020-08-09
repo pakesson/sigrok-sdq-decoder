@@ -7,8 +7,8 @@ class Decoder(srd.Decoder):
     api_version = 3
     id = 'sdq'
     name = 'SDQ'
-    longname = 'Apple SDQ'
-    desc = 'Apple SDQ.'
+    longname = 'Texas Instruments SDQ'
+    desc = 'Texas Instruments SDQ. The SDQ protocol is also used by Apple.'
     license = 'gplv2+'
     inputs = ['logic']
     outputs = []
